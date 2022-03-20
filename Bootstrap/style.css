@@ -1,0 +1,62 @@
+.container{
+    background-color:white;
+    height: 500px;
+    width: 500px;
+}
+/* .container-fluid{
+    border: black solid 10px;
+} */
+#grande{
+    height: 300px;
+}
+#pequeno{
+    height: 200px;
+}
+/* Todas las clases que contengan "col" se les va a aplicar el mismo estilo */
+/* [class*="col"]{
+    background-color: red;
+    border: black solid 2px;
+} */
+#cs{
+    border-right: black solid 5px;
+    border-bottom: black solid 5px;
+    background-color: white;
+    height: 150px;
+}
+#ci{
+    border-top: black solid 5px;
+    border-right: black solid 5px;
+    border-bottom: black solid 5px;
+    background-color: white;
+    height: 150px;
+}
+.col-9{
+    border-left: black solid 5px;
+    border-bottom: black solid 5px;
+    background-color: red;
+}
+#esquina{
+    border-top: black solid 5px;
+    border-right: black solid 5px;
+    background-color: blue;
+}
+.col-8{
+    border-top: black solid 5px;
+    border-left: black solid 5px;
+    border-right: black solid 5px;
+    background-color: white;
+}
+#arriba{
+    border-top: black solid 5px;
+    border-left: black solid 5px;
+    border-bottom: black solid 5px;
+    background-color: white;
+    height: 100px;
+}
+#abajo{
+    border-top: black solid 5px;
+    border-left: black solid 5px;
+    border-bottom: black solid 5px;
+    background-color: yellow;
+    height: 100px;
+}
