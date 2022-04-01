@@ -1,0 +1,32 @@
+/* Ejercicio 2 */
+/* .row{
+    height: 300px;
+}
+[class*=col]{
+    background-color: aqua;
+}
+.pad-alt{
+    height: 95%;
+    margin: 5px;
+    background-color: blue;
+} */
+
+/* Ejercicio tripas */
+/* .row{
+    height: 50px;
+}
+[class*=col]{
+    background-color: aliceblue;
+    border: black solid 1px;
+} */
+
+/* Ejercicio 4 */
+.row{
+    background-color: antiquewhite;
+    margin: 10px;
+    height: 100px;
+}
+.col{
+    background-color: blueviolet;
+    border: black solid 2px;
+}

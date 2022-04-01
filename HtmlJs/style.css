@@ -1,0 +1,11 @@
+/* .black{
+    border: black solid 2px;
+}
+.red{
+    background-color: red;
+} */
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -35,7 +35,7 @@ for (var i = 0; i < animales.length; i++){
 //Arreglo dentro de un arreglo
 
 var pokemones = [["pikachu","caterpie"],["chimeco","sceptile"],["greninja","goomy"]]
-console.log(pokemones[1][0][0])
+console.log(pokemones[0][1])
 
 
 //Variable objeto (diccionario)
@@ -44,6 +44,9 @@ var persona = {
     nombre : "Boris",
     edad   : 23,
     cel    : "1234567890",
+    nueva :{
+        nombre : "123455"
+    },
     pokemonos : {
         primera : ["pikachu","charmander","squirtle","bulbasaur"],
         segunda : ["chikorita","cyndaquil","totodile"],
@@ -54,8 +57,15 @@ var persona = {
         }
     }
 }
-
+var boton = document.getElementById("boton")
+var input = document.getElementById("input")
 //Mostrar elementos
+function valorObjeto(){
+    if(input.value===persona.nueva.nombre){
+        console.log("si sirve")
+    }else{console.log("no sirve")}
+}
+boton.addEventListener('click', valorObjeto)
 console.log(persona)
 console.log(persona.edad)
-console.log(persona.edad, persona.cel)
+console.log(persona.edad, persona.pokemonos.primera[0])
